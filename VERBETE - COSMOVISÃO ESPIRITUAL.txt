@@ -1,0 +1,198 @@
+<!-- Grupo A – Construção Estrutural do Verbete [COSMOVISÃO ESPIRITUAL] -->
+
+<section id="definicao-formal" class="verbetes-section">
+  <h2>1. Definição Formal e Sumário Temático</h2>
+  <blockquote>
+    Defina de forma clara e precisa o conceito abrangente do enunciado [Cosmovisão Espiritual]
+    •	A Vida como Interconexão e Unidade
+    •	Leis Universais como Fundamento Ético
+    •	Amor Devocional e Serviço como força de transformação
+    ]. Apresente a definição formal segundo fontes acadêmicas e um sumário temático que delimite o escopo do verbete. Caso existam diferentes escolas ou vertentes, destaque as principais distinções.
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <p>
+      A <strong>cosmovisão espiritual</strong> pode ser entendida como uma lente ou matriz de compreensão do mundo na qual a vida é vista como um campo de interconexão, unidade e propósito transcendente. Essa perspectiva atribui significado espiritual a todos os fenômenos naturais e sociais, reconhecendo leis universais — tais como a reciprocidade, a compaixão, a harmonia e a interdependência — como fundamentos éticos para o viver. 
+    </p>
+    <p>
+      Segundo fontes acadêmicas, especialmente em áreas como antropologia, psicologia transpessoal e estudos religiosos comparados, a cosmovisão espiritual é caracterizada por três eixos centrais: (1) a percepção de que tudo está interligado e nada existe de forma isolada; (2) a existência de leis ou princípios cósmicos/universais que norteiam as relações entre seres, natureza e divindade; (3) o reconhecimento do amor devocional, do serviço ao próximo e da ética comunitária como expressões máximas do desenvolvimento espiritual.
+    </p>
+    <p>
+      O escopo do verbete inclui diferentes tradições — indígenas, orientais, africanas, esotéricas, cristãs místicas, sufis, contemporâneas e laicas. Escolas orientais tendem a enfatizar a dissolução do ego e a unidade com o todo; saberes indígenas, a relação recíproca com a Terra e ancestrais; linhas contemporâneas, o autoconhecimento e a experiência do sagrado na vida diária. 
+    </p>
+  </div>
+</section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banner Automático</title>
+</head>
+// Função para atualizar o banner automaticamente
+async function updateBanner() {
+    const apiKey = 'dYOZIq3VhuZBNTgzi89PPlf4ftA_2NSEbF9LH1l4pws
+'; // Substitua por sua Access Key do Unsplash
+    const category = 'ESPIRITUALIDADE'; // Categoria de imagens (modifique conforme o tema do site)
+
+    try {
+        // Requisição para a API do Unsplash
+        const response = await fetch(`https://api.unsplash.com/photos/random?query=${category}&client_id=${apiKey}`);
+        const data = await response.json();
+
+        // URL da imagem retornada pela API
+        const imageUrl = data.urls.regular;
+
+        // Atualizar o banner
+        const banner = document.getElementById('banner');
+        banner.style.backgroundImage = `url(${imageUrl})`;
+    } catch (error) {
+        console.error('Erro ao atualizar o banner:', error);
+    }
+}
+
+// Chamar a função ao carregar a página
+updateBanner();
+
+// Opcional: Atualizar o banner periodicamente (ex.: a cada 24 horas)
+setInterval(updateBanner, 86400000); // 86400000 ms = 24 horas
+
+<body data-rsssl=1>
+    <div id="banner" style="width:100%; height:300px; background-size:cover;"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<section id="historico-etimologia" class="verbetes-section">
+  <h2>2. Histórico e Genealogia Conceitual</h2>
+  <blockquote>
+    "Reconstrua a trajetória histórica e etimológica do termo [Cosmovisão Espiritual]. Relate a origem do conceito, as mutações de sentido e identifique marcos históricos, rupturas e momentos de virada no debate. Utilize fontes de diferentes áreas do saber."
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <p>
+      O termo “cosmovisão” deriva do alemão <em>Weltanschauung</em>, popularizado na filosofia e nas ciências humanas no século XIX. A expressão “cosmovisão espiritual” emerge da articulação entre esse termo e a valorização das dimensões transcendentais da experiência humana, especialmente em contextos indígenas, orientais e pós-modernos.
+    </p>
+    <p>
+      Historicamente, o conceito foi influenciado por tradições filosóficas que buscavam integrar razão e fé, como o pensamento de Plotino, Lao Tsé, os místicos medievais e, mais tarde, autores como William James (psicologia da experiência religiosa), Mircea Eliade (história das religiões) e Fritjof Capra (ecologia profunda).
+    </p>
+    <p>
+      Marcos históricos de mutação incluem: o contato entre culturas na colonização das Américas (onde cosmovisões indígenas confrontam paradigmas ocidentais); o movimento Nova Era (décadas de 1960–70), que universalizou temas como unidade, energia e holismo; e, recentemente, o surgimento de epistemologias do Sul e do campo dos direitos da natureza, que desafiam perspectivas eurocêntricas e trazem à tona espiritualidades plurais e insurgentes.
+    </p>
+  </div>
+</section>
+
+<section id="mapeamento-interdisciplinar" class="verbetes-section">
+  <h2>3. Mapeamento Interdisciplinar</h2>
+  <blockquote>
+    "Mapeie como o conceito [cosmovisão espiritual] é abordado em diferentes disciplinas (ex: sociologia, filosofia, economia, ciências exatas, artes, etc.). Aponte convergências, divergências e intersecções. Inclua exemplos de uso acadêmico e prático."
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <p>
+      Na <strong>sociologia</strong>, a cosmovisão espiritual aparece como fator estruturante de valores, normas e identidades coletivas, articulando religião, tradição e dinâmicas de resistência. Na <strong>filosofia</strong>, especialmente na metafísica e na ética, destaca-se a busca pelo sentido último da existência, pelo ser em relação ao todo e à natureza.
+    </p>
+    <p>
+      Em <strong>economia solidária</strong> e <strong>ecologia</strong>, o conceito surge no debate sobre desenvolvimento sustentável, justiça ecológica e relação sagrada com a terra — exemplos: agroflorestas indígenas, permacultura, economia do dom. Nas <strong>ciências exatas</strong>, há diálogos emergentes com física quântica, teoria dos sistemas e neurociências — pesquisas sobre efeitos de práticas meditativas e interconectividade da matéria.
+    </p>
+    <p>
+      Nas <strong>artes</strong>, a cosmovisão espiritual inspira movimentos como o surrealismo, o visionarismo e as artes indígenas e afro-diaspóricas, expressando-se por símbolos, rituais e performances que buscam representar o inefável e a conexão universal.
+    </p>
+    <p>
+      Exemplos práticos: escolas Waldorf, projetos de saúde integrativa (SUS, OMS), políticas de reconhecimento de saberes tradicionais e redes de ativismo juvenil ambientalista (Fridays For Future, Ecovilas).
+    </p>
+  </div>
+</section>
+
+<section id="exemplos-empiricos" class="verbetes-section">
+  <h2>4. Exemplos Empíricos, Estudos de Caso e Aplicações</h2>
+  <blockquote>
+    "Liste exemplos empíricos, estudos de caso e aplicações do conceito [COSMOVISÃO ESPIRITUAL] em contextos reais, artísticos ou midiáticos. Para cada exemplo, explique a pertinência e as implicações sociais, culturais ou políticas."
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <p>
+      Um exemplo marcante é o movimento dos <strong>Guardiões da Floresta</strong> na Amazônia, onde indígenas de diferentes etnias combinam práticas espirituais ancestrais (rezas, ayahuasca, rituais de cura) à luta política pelo território e pela sustentabilidade ambiental. A espiritualidade serve de fonte de resistência e força comunitária, inspirando novas legislações e pactos globais.
+    </p>
+    <p>
+      No âmbito <strong>artístico</strong>, exposições como a da artista sueca Hilma af Klint ou o trabalho do coletivo afro-brasileiro “Ilê Aiyê” traduzem em arte visual, música e performance a experiência do sagrado e a luta pela ancestralidade.
+    </p>
+    <p>
+      Em mídias alternativas, o canal “Pachamama Alliance” reúne relatos de ecovilas, xamãs urbanos, projetos de educação espiritual laica e práticas como yoga, meditação, dança circular e festivais de reconexão com a natureza.
+    </p>
+    <p>
+      Em termos de políticas públicas, o reconhecimento das medicinas tradicionais pelo Sistema Único de Saúde brasileiro e o uso de espiritualidade na recuperação de dependentes químicos ilustram a aplicação prática da cosmovisão espiritual.
+    </p>
+  </div>
+</section>
+
+<section id="criticas-controversias" class="verbetes-section">
+  <h2>5. Críticas, Limitações, Paradoxos e Controvérsias</h2>
+  <blockquote>
+    "Apresente as principais críticas, limitações, paradoxos e controvérsias relacionadas ao conceito [COSMOVISÃO ESPIRITUAL]. Traga contrapontos de escolas divergentes ou de vozes críticas. Se possível, inclua citações representativas."
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <p>
+      A cosmovisão espiritual enfrenta críticas de escolas materialistas e secularistas, que acusam o conceito de carecer de fundamento empírico ou de servir a projetos de poder e manipulação. Autores como Richard Dawkins e Sam Harris sustentam que experiências espirituais podem ser explicadas por neurobiologia e não exigem postulações metafísicas.
+    </p>
+    <p>
+      Entre escolas críticas do Sul Global, há o alerta sobre o risco de apropriação e mercantilização da espiritualidade por movimentos comerciais (Nova Era, wellness), com consequências de apagamento cultural e colonialismo simbólico. Feministas como Maria Lugones e movimentos LGBTQIA+ denunciam o uso de espiritualidade para justificar opressões ou excluir corpos dissidentes.
+    </p>
+    <p>
+      Um paradoxo recorrente: espiritualidade pode ser fonte de inclusão e empoderamento, mas também de dogmatismos, conflitos e segregações quando instrumentalizada por poderes institucionais ou identitários.
+    </p>
+    <p>
+      Citação representativa: “A espiritualidade é uma potência de transformação social, mas só se for praticada com ética, inclusão e consciência histórica.” (Boaventura de Sousa Santos)
+    </p>
+  </div>
+</section>
+
+<section id="quadro-semantico" class="verbetes-section">
+  <h2>6. Quadro Semântico</h2>
+  <blockquote>
+    "Construa um quadro semântico para o conceito [COSMOVISÃO ESPIRITUAL]: relacione sinônimos, antônimos, analogias, metáforas recorrentes, campos semânticos próximos e afastados, além de possíveis falsos cognatos ou sentidos desviados."
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <ul>
+      <li><strong>Sinônimos:</strong> visão do sagrado, visão holística, perspectiva espiritual, consciência ampliada, matriz espiritual.</li>
+      <li><strong>Antônimos:</strong> materialismo, reducionismo, ceticismo radical, niilismo, visão mecanicista.</li>
+      <li><strong>Analogia:</strong> O mundo como uma grande teia de aranha — qualquer vibração em um ponto repercute em todo o tecido.</li>
+      <li><strong>Metáforas recorrentes:</strong> Tapeçaria da vida, rede invisível, árvore da vida, oceano de consciência, círculo sagrado.</li>
+      <li><strong>Campos semânticos próximos:</strong> Ecologia profunda, saúde integral, justiça cósmica, ética relacional, espiritualidade ambiental.</li>
+      <li><strong>Campos semânticos afastados:</strong> Cientificismo dogmático, racionalismo excludente, consumismo, alienação espiritual.</li>
+      <li><strong>Falsos cognatos:</strong> “Espiritualidade” confundida com dogmatismo religioso; “visão de mundo” confundida com mera opinião cultural.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="visualizacao-recursos" class="verbetes-section">
+  <h2>7. Visualização e Recursos Didáticos</h2>
+  <blockquote>
+    "Sugira ou desenvolva visualizações (tabelas, quadros comparativos, mapas conceituais, linhas do tempo, infográficos) para facilitar a compreensão do conceito [COSMOVISÃO ESPIRITUAL]. Se pertinente, acrescente dados empíricos, gráficos ou ilustrações."
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <p>
+      Sugestão de infográfico: Mapa conceitual estilo mandala, com “cosmovisão espiritual” ao centro, conectado a círculos periféricos que representam principais correntes (ancestralidade, filosofias orientais, espiritualidade contemporânea, ecologia profunda, religiões institucionais), personagens-chave (Eliade, Teilhard de Chardin, Capra, Kumar, Viveiros de Castro, Hilma af Klint), linha do tempo circular de eventos históricos, e blocos de críticas (apropriação, universalismo, sincretismo).
+    </p>
+    <p>
+      Paleta cromática: azul-púrpura, verde-água, dourado, tons terrosos. Elementos: mandala central, ícones de tradições culturais, rostos plurais, linha do tempo curva e quadros de citações.
+    </p>
+    <p>
+      Exemplos visuais podem ser produzidos por IA (Midjourney, DALL-E) conforme o prompt detalhado já especificado no chat, e podem ser integrados ao bloco de conteúdo dinâmico.
+    </p>
+  </div>
+</section>
+
+<section id="reflexao-critica" class="verbetes-section">
+  <h2>8. Reflexão Crítica e Potencial Transformador</h2>
+  <blockquote>
+    "Finalize com uma reflexão crítica sobre o impacto, a relevância social e as potencialidades transformadoras do conceito [COSMOVISÃO ESPIRITUAL]. Indique aplicações práticas e proponha novas perguntas ou caminhos de investigação."
+  </blockquote>
+  <div class="verbetes-conteudo">
+    <p>
+      O conceito de <strong>cosmovisão espiritual</strong> emerge como chave para repensar relações entre humanidade, natureza e sentido de existência em um mundo marcado por crises ambientais, sociais e éticas. Sua força reside na capacidade de integrar tradição e inovação, subjetividade e coletividade, ciência e espiritualidade, em busca de equilíbrio.
+    </p>
+    <p>
+      Entre as aplicações práticas estão: promoção de saúde integral, diálogo intercultural, políticas públicas inclusivas, reconexão com saberes ancestrais e fortalecimento da resiliência comunitária. A cosmovisão espiritual desafia o paradigma do consumo, propondo ética do cuidado, reciprocidade e reverência à vida.
+    </p>
+    <p>
+      Novas perguntas: Como potencializar diálogos entre espiritualidade e ciência sem reducionismos? Como garantir protagonismo de comunidades subalternizadas no debate global? Como evitar a mercantilização ou apropriação da espiritualidade sem perder seu potencial integrador?
+    </p>
+  </div>
+</section>
